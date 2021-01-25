@@ -1,15 +1,14 @@
 body{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     background-color: #ffffff;
 }
 
 #header{
     height: 48px;
-    width:100%;
     position: absolute;
     top: 20px;
-    margin-left:165px;
+    margin-left:160px;
     display: flex;
 }
 
@@ -24,6 +23,7 @@ body{
 }
 #search-bar:hover{
     box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border:1px solid transparent;
 }
 
 #search-icon{
@@ -38,8 +38,8 @@ body{
     line-height: 44px;
     display: flex;
     align-items: center;
-    margin-left: 6px;
-    margin-right:6px;
+    margin-left: 5px;
+    margin-right:5px;
 }
 #clear-icon{
     fill:#80868b;
@@ -61,9 +61,9 @@ body{
 
 #input{
     background-color: #ffffff;
-    width: 75%;
+    width: 76%;
     margin-right: 15px;
-    margin-left: 15px;
+    margin-left: 18px;
 }
 #input > input{
     background-color:#ffffff;
@@ -86,8 +86,9 @@ body{
 #logo-div{
     width: auto;
     position: absolute;
-    left: -140px;
-    top:10px;
+    left: -136px;
+    top:8px;
+    margin: 0;
 }
 
 #logo{
