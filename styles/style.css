@@ -38,8 +38,6 @@ body{
     line-height: 44px;
     display: flex;
     align-items: center;
-    margin-left: 5px;
-    margin-right:5px;
 }
 #clear-icon{
     fill:#80868b;
@@ -61,23 +59,37 @@ body{
 
 #input{
     background-color: #ffffff;
-    width: 76%;
-    margin-right: 15px;
+    width: 533px;
     margin-left: 18px;
 }
+
 #input > input{
     background-color:#ffffff;
     width:100%;
 }
+
+#clear{
+ padding-left: 10px;
+}
+
 #spacer{
     border-left: 1px solid #dfe1e5;
     height: 30px;
     margin: auto;
-    margin-left: 8px;
+    margin-left: 12px;
     margin-right:8px;
     width:0px;
     cursor: pointer;
 }
+
+#mic{
+    padding-left:4px;
+}
+
+#lupe{
+    padding-left: 16px;
+}
+
 #container{
     padding: 0;
     margin: 0 0 0 180px;
